@@ -620,7 +620,7 @@ sub AppendDsspSequences() {
 			$name = $1;
 
 			# SCOPe ID? (d3lkfa_,d3grs_3,d3pmg.1)
-			if ( $line =~ /^>(d[a-z0-9]{4}[a-z0-9_.][0-9_])/ )
+			if ( $line =~ /^>(d[a-z0-9]{4}[a-z0-9_.][a-z0-9_])/ )
 			{
 				$pdbcode = $1;
 				$qrange  = "";
